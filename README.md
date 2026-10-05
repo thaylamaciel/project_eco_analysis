@@ -12,6 +12,20 @@ This repository contains the R scripts, dataset, and generated figures for analy
 - **Prométhée Fire Database:** Historical wildfire occurrences recorded in southeastern France during summer 2023.
 - **Météo-France (SAFRAN):** Daily meteorological data per commune, including maximum temperature (°C), maximum wind speed (km/h), and calculated Fire Weather Index (FWI).
 
+## Visualizations
+
+### Spatial Wildfire Risk Map
+<img width="691" height="652" alt="image" src="https://github.com/user-attachments/assets/40a40b3c-2262-4d4d-97bc-a4c6c0452d58" />
+
+
+### FWI Distribution Across Communes
+<img width="691" height="626" alt="image" src="https://github.com/user-attachments/assets/6eb89317-a5e3-4228-b88d-5b9b823ef636" />
+
+
+### Daily Temperature & Fire Timeline
+<img width="691" height="413" alt="image" src="https://github.com/user-attachments/assets/fa12ca44-236a-4e3d-bfbf-469f18a62477" />
+
+
 ## Methodology
 - Data cleaning and integration of weather logs with fire records (`tidyverse`).
 - FWI distribution analysis and timeline plotting of daily temperature against fire dates (`ggplot2`).
@@ -22,11 +36,6 @@ This repository contains the R scripts, dataset, and generated figures for analy
 - Coastal communes (Cannes, Menton, Valbonne) recorded the highest concentration of critical risk days (FWI >= 30), mostly driven by higher daily peak temperatures.
 - Higher-altitude inland communes (Tende, Vence) maintained moderate to low hazard levels across the summer period.
 - Feature importance analysis confirmed daily maximum temperature and the FWI index as the primary predictors of wildfire danger in the study area.
-
-## Visualizations Included
-- `wildfire_risk_map.png`: Spatial hazard ratings and commune breakdown.
-- `fwi_wildfire_distribution.png`: FWI value ranges across the 8 communes.
-- `temperature_fire_timeline_faceted.png`: Daily maximum temperature timeline with fire event indicators.
 
 ## How to Run
 ```R

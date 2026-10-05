@@ -33,7 +33,7 @@ This repository contains the R scripts, dataset, and generated figures for analy
 - GIS visualization with dynamic weather popups (`leaflet`, `mapview`).
 
 ## Main Findings
-- Coastal communes (Cannes, Menton, Valbonne) recorded the highest concentration of critical risk days (FWI >= 30), mostly driven by higher daily peak temperatures.
+- Coastal communes (Cannes, Menton, Sophia Antipolis) recorded the highest concentration of critical risk days (FWI >= 30), mostly driven by higher daily peak temperatures.
 - Higher-altitude inland communes (Tende, Vence) maintained moderate to low hazard levels across the summer period.
 - Feature importance analysis confirmed daily maximum temperature and the FWI index as the primary predictors of wildfire danger in the study area.
 
